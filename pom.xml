@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>PacketLib</name>
-    <description>A library for networking between a client and a server with packets.</description>
+    <description>A library for networking between a client and a server with packets. Rewrite for CyanWool</description>
     <url>http://github.com/Steveice10/PacketLib/</url>
 
     <scm>
@@ -67,6 +67,11 @@
             <artifactId>netty-all</artifactId>
             <version>5.0.0.Alpha2</version>
         </dependency>
+        <dependency>
+			<groupId>net.cyanwool</groupId>
+			<artifactId>CyanWoolAPI</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
     </dependencies>
 
     <build>

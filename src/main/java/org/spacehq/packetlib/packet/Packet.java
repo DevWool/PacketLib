@@ -3,12 +3,14 @@ package org.spacehq.packetlib.packet;
 import org.spacehq.packetlib.io.NetInput;
 import org.spacehq.packetlib.io.NetOutput;
 
+import net.cyanwool.api.network.IPacket;
+
 import java.io.IOException;
 
 /**
  * A network packet.
  */
-public interface Packet {
+public interface Packet extends IPacket{
     /**
      * Reads the packet from the given input buffer.
      *
