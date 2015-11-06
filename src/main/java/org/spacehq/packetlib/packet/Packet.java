@@ -1,11 +1,11 @@
 package org.spacehq.packetlib.packet;
 
+import java.io.IOException;
+
 import org.spacehq.packetlib.io.NetInput;
 import org.spacehq.packetlib.io.NetOutput;
 
-import net.cyanwool.api.network.IPacket;
-
-import java.io.IOException;
+import net.hexogendev.hexogen.api.network.IPacket;
 
 /**
  * A network packet.
